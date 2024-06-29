@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/迁徙路线展示.css" />
+    <style>
+			li {
+				list-style: none;
+			}
+
+			.btnClass {
+				padding: 0 12px;
+				margin: 0;
+				background-color: rgba(167, 92, 92, 1);
+				float: left;
+				color: white;
+			}
+
+			.btnClass:hover {
+				cursor: pointer;
+			}
+
+			.colorBtn {
+				margin-left: 1.875rem;
+			}
+      .paragraph-spacing {
+        margin-bottom: .1875rem; /* 在段落下方添加20像素的外边距 */
+    }
+		</style>
+  </head>
+
+<body>
+    <header>
+      <h1>中国鸟类迁徙可视化展示</h1>
+      <div class="showTime"></div>
+    </header>
+    <section class="mainbox">
+      <div class="column">
+        <div class="line">
+            <h2>中国候鸟种类三线历年数量</h2>
+            <div class="chart"></div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="bar">
+          <h2>中国候鸟栖息地三线比例</h2>
+          <div class="chart"></div>
+        </div>
+      </div>
+    </section>
+    <script src="js/flexible.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/echarts.min.js"></script>
+    <script src="js/world.js"></script>
+    <script src="js/china.js"></script>
+    <script src="js/myMap1.js"></script>
+    <script src="js/index.js"></script>
+
+    
+  </body>
+</html>
